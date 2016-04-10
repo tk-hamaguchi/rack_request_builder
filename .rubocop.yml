@@ -1,0 +1,4 @@
+AllCops:
+  Exclude:
+    - 'lib/rack_request_builder/rack.rb'
+    - 'spec/**/*'
