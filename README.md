@@ -18,7 +18,7 @@ Content-Length: 25
 hoge=HOGE&fuga[moke]=MOKE
 EOS
 
-req = RackRequestBuilder(http_data)
+req = RackRequestBuilder.execute(http_data)
 #=> #<Rack::Request:0x007fd16a3a8138
  @env=
   {"CONTENT_LENGTH"=>"25",
