@@ -31,4 +31,6 @@ end
 
 Bundler::GemHelper.install_tasks
 
-task default: %i(spec features rubocop yard build)
+# TODO: https://github.com/bbatsov/rubocop/issues/3267
+#task default: %i(spec features rubocop yard build)
+task default: %i(spec features yard build)

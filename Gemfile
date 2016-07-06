@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rspec', '~> 3.4'
+gem 'rspec', '~> 3.5.0'
 gem 'simplecov-rcov'
 gem 'rubocop-checkstyle_formatter', require: false
 
